@@ -18,4 +18,4 @@ this project is for many kinds of encryption
 ![](http://s5.sinaimg.cn/large/005vePOggy6YsmPBSQYf4&690)  ![](http://s13.sinaimg.cn/large/005vePOggy6YsmPFNYo8c&690) 
 ####nini
 
-![](https://github.com/Flying-Einstein/Encryptions/blob/master/Encryption/nav_back%403x.png)
+![](https://github.com/Flying-Einstein/Encryptions/blob/master/Encryption/nav_back@2x.png)
