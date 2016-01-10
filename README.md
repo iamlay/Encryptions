@@ -11,10 +11,10 @@
 iOS无论使用系统自带的sdk函数，用mac产生的或者使用java的jdk产生的公钥和私钥，进行加密解密自己都可以使用。不过ios加密，java解密，或者反过来就不能用了。要么是无法创建报告个-9809或-50的错误，要么解出来是乱码。ios系统函数种只有用公钥加密，私钥解密的方式。而公钥加密每次结果都不同。<br>
 MAC上生成公钥、私钥的方法，及使用<br>
 1.打开终端，切换到自己想输出的文件夹下<br>
-2.输入指令:openssl（openssl是生成各种秘钥的工具，mac已经嵌入<br>
-3.输入指令:genrsa -out rsa_private_key.pem 1024  (生成私钥，java端使用的)<br>
-4.输入指令:rsa -in rsa_private_key.pem -out rsa_public_key.pem -pubout  (生成公钥)<br>
-5.输入指令: pkcs8 -topk8 -in rsa_private_key.pem -out pkcs8_rsa_private_key.pem -nocrypt(私钥转格式，在ios端使用私钥解密时用这个私钥)<br>
+2.输入指令:‘openssl’（openssl是生成各种秘钥的工具，mac已经嵌入<br>
+3.输入指令:‘genrsa -out rsa_private_key.pem 1024’  (生成私钥，java端使用的)<br>
+4.输入指令:‘rsa -in rsa_private_key.pem -out rsa_public_key.pem -pubout’  (生成公钥)<br>
+5.输入指令:‘ pkcs8 -topk8 -in rsa_private_key.pem -out pkcs8_rsa_private_key.pem -nocrypt’(私钥转格式，在ios端使用私钥解密时用这个私钥)<br>
 注意:在MAC上生成三个.pem格式的文件，一个公钥，两个私钥，都可以在终端通过指令vim xxx.pem 打开，里面是字符串，第三步生成的私钥是java端用来解密数据的，第五步转换格式的私钥iOS端可以用来调试公钥、私钥解密（因为私钥不留在客户端）<br>
 [详细步骤](http://blog.sina.com.cn/s/blog_12c8ae0d80102vy21.html "悬停显示")
 
