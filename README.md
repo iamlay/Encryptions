@@ -50,6 +50,11 @@ MAC上生成公钥、私钥的方法，及使用<br>
 + (NSData *)decryptData:(NSData *)data privateKey:(NSString *)privKey;
 ```
 
+####ios端进行RSA加密、解密时非常方便
+```Objective-C
+1、引入头文件 #import "MD5Util"
+2、加密时调用方法：- (NSString *)md5:(NSString *)str;
+```
 ##效果图
  ![](http://s11.sinaimg.cn/large/005vePOggy6YsmPh0XU6a&690)  ![](http://s4.sinaimg.cn/large/005vePOggy6YsmPyg9Bf3&690) 
 
