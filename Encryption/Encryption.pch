@@ -1,0 +1,19 @@
+//
+//  Encryption.pch
+//  Encryption
+//
+//  Created by 雷传营 on 16/1/10.
+//  Copyright © 2016年 leichuanying. All rights reserved.
+//
+
+#ifndef Encryption_pch
+#define Encryption_pch
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Define.h"
+#import "EncryptUtils.h"
+#endif
+
+
+#endif /* Encryption_pch */

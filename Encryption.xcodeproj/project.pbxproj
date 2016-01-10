@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4F5D9FB3A743858896C84B8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A2009AF2A4CDAAC7AD40F8 /* libPods.a */; };
 		B469C8C71C41EFA000C56D11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C8C61C41EFA000C56D11 /* main.m */; };
 		B469C8CA1C41EFA000C56D11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C8C91C41EFA000C56D11 /* AppDelegate.m */; };
 		B469C8CD1C41EFA000C56D11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C8CC1C41EFA000C56D11 /* ViewController.m */; };
@@ -15,6 +16,30 @@
 		B469C8D51C41EFA000C56D11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B469C8D31C41EFA000C56D11 /* LaunchScreen.storyboard */; };
 		B469C8E01C41EFA000C56D11 /* EncryptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C8DF1C41EFA000C56D11 /* EncryptionTests.m */; };
 		B469C8EB1C41EFA000C56D11 /* EncryptionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C8EA1C41EFA000C56D11 /* EncryptionUITests.m */; };
+		B469C8FB1C41F18700C56D11 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C8FA1C41F18700C56D11 /* BaseViewController.m */; };
+		B469C9011C41F26400C56D11 /* UIView+LSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9001C41F26400C56D11 /* UIView+LSAdditions.m */; };
+		B469C91A1C41F32800C56D11 /* ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C90A1C41F32800C56D11 /* ColorUtils.m */; };
+		B469C91B1C41F32800C56D11 /* UIColor+AkColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C90C1C41F32800C56D11 /* UIColor+AkColor.m */; };
+		B469C91C1C41F32800C56D11 /* EncryptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C90F1C41F32800C56D11 /* EncryptUtils.m */; };
+		B469C91D1C41F32800C56D11 /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9111C41F32800C56D11 /* ImageUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B469C91E1C41F32800C56D11 /* LSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9131C41F32800C56D11 /* LSHelper.m */; };
+		B469C91F1C41F32800C56D11 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9151C41F32800C56D11 /* UIImage+fixOrientation.m */; };
+		B469C9201C41F32800C56D11 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9171C41F32800C56D11 /* UIImage+Resize.m */; };
+		B469C9211C41F32800C56D11 /* UIImage+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9191C41F32800C56D11 /* UIImage+Size.m */; };
+		B469C9261C41F33A00C56D11 /* nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B469C9221C41F33A00C56D11 /* nav_back@2x.png */; };
+		B469C9271C41F33A00C56D11 /* nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B469C9231C41F33A00C56D11 /* nav_back@3x.png */; };
+		B469C9281C41F33A00C56D11 /* tab1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B469C9241C41F33A00C56D11 /* tab1@2x.png */; };
+		B469C9291C41F33A00C56D11 /* tab2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B469C9251C41F33A00C56D11 /* tab2@2x.png */; };
+		B469C93B1C41F60000C56D11 /* DES3Util.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9321C41F60000C56D11 /* DES3Util.m */; };
+		B469C93C1C41F60000C56D11 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9341C41F60000C56D11 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B469C93D1C41F60000C56D11 /* NSString+NSReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9371C41F60000C56D11 /* NSString+NSReplace.m */; };
+		B469C93E1C41F60000C56D11 /* RegularHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C93A1C41F60000C56D11 /* RegularHelp.m */; };
+		B469C9421C41F70800C56D11 /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9411C41F70800C56D11 /* RSAUtil.m */; };
+		B469C9451C41F7D800C56D11 /* MD5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9441C41F7D800C56D11 /* MD5ViewController.m */; };
+		B469C9481C41F7E400C56D11 /* DESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9471C41F7E400C56D11 /* DESViewController.m */; };
+		B469C94B1C41F7EE00C56D11 /* RSAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C94A1C41F7EE00C56D11 /* RSAViewController.m */; };
+		B469C94E1C41F80F00C56D11 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C94D1C41F80F00C56D11 /* RootViewController.m */; };
+		B469C9511C41F90800C56D11 /* JavaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9501C41F90800C56D11 /* JavaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34A2009AF2A4CDAAC7AD40F8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		791568259127868745DD3B5B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B469C8C21C41EFA000C56D11 /* Encryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Encryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B469C8C61C41EFA000C56D11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B469C8C81C41EFA000C56D11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +78,64 @@
 		B469C8E61C41EFA000C56D11 /* EncryptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B469C8EA1C41EFA000C56D11 /* EncryptionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptionUITests.m; sourceTree = "<group>"; };
 		B469C8EC1C41EFA000C56D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B469C8F91C41F18700C56D11 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
+		B469C8FA1C41F18700C56D11 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
+		B469C8FF1C41F26400C56D11 /* UIView+LSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LSAdditions.h"; sourceTree = "<group>"; };
+		B469C9001C41F26400C56D11 /* UIView+LSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LSAdditions.m"; sourceTree = "<group>"; };
+		B469C9021C41F28A00C56D11 /* Encryption.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Encryption.pch; path = ../Encryption.pch; sourceTree = "<group>"; };
+		B469C9031C41F2B200C56D11 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Define.h; path = ../Define.h; sourceTree = "<group>"; };
+		B469C9091C41F32800C56D11 /* ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtils.h; sourceTree = "<group>"; };
+		B469C90A1C41F32800C56D11 /* ColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorUtils.m; sourceTree = "<group>"; };
+		B469C90B1C41F32800C56D11 /* UIColor+AkColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AkColor.h"; sourceTree = "<group>"; };
+		B469C90C1C41F32800C56D11 /* UIColor+AkColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AkColor.m"; sourceTree = "<group>"; };
+		B469C90E1C41F32800C56D11 /* EncryptUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptUtils.h; sourceTree = "<group>"; };
+		B469C90F1C41F32800C56D11 /* EncryptUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptUtils.m; sourceTree = "<group>"; };
+		B469C9101C41F32800C56D11 /* ImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		B469C9111C41F32800C56D11 /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		B469C9121C41F32800C56D11 /* LSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSHelper.h; sourceTree = "<group>"; };
+		B469C9131C41F32800C56D11 /* LSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSHelper.m; sourceTree = "<group>"; };
+		B469C9141C41F32800C56D11 /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		B469C9151C41F32800C56D11 /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		B469C9161C41F32800C56D11 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		B469C9171C41F32800C56D11 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		B469C9181C41F32800C56D11 /* UIImage+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Size.h"; sourceTree = "<group>"; };
+		B469C9191C41F32800C56D11 /* UIImage+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Size.m"; sourceTree = "<group>"; };
+		B469C9221C41F33A00C56D11 /* nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nav_back@2x.png"; path = "../nav_back@2x.png"; sourceTree = "<group>"; };
+		B469C9231C41F33A00C56D11 /* nav_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nav_back@3x.png"; path = "../nav_back@3x.png"; sourceTree = "<group>"; };
+		B469C9241C41F33A00C56D11 /* tab1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab1@2x.png"; path = "../tab1@2x.png"; sourceTree = "<group>"; };
+		B469C9251C41F33A00C56D11 /* tab2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab2@2x.png"; path = "../tab2@2x.png"; sourceTree = "<group>"; };
+		B469C9311C41F60000C56D11 /* DES3Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DES3Util.h; sourceTree = "<group>"; };
+		B469C9321C41F60000C56D11 /* DES3Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DES3Util.m; sourceTree = "<group>"; };
+		B469C9331C41F60000C56D11 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		B469C9341C41F60000C56D11 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		B469C9351C41F60000C56D11 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		B469C9361C41F60000C56D11 /* NSString+NSReplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSReplace.h"; sourceTree = "<group>"; };
+		B469C9371C41F60000C56D11 /* NSString+NSReplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSReplace.m"; sourceTree = "<group>"; };
+		B469C9391C41F60000C56D11 /* RegularHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularHelp.h; sourceTree = "<group>"; };
+		B469C93A1C41F60000C56D11 /* RegularHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularHelp.m; sourceTree = "<group>"; };
+		B469C9401C41F70800C56D11 /* RSAUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAUtil.h; sourceTree = "<group>"; };
+		B469C9411C41F70800C56D11 /* RSAUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAUtil.m; sourceTree = "<group>"; };
+		B469C9431C41F7D800C56D11 /* MD5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5ViewController.h; sourceTree = "<group>"; };
+		B469C9441C41F7D800C56D11 /* MD5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5ViewController.m; sourceTree = "<group>"; };
+		B469C9461C41F7E400C56D11 /* DESViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESViewController.h; sourceTree = "<group>"; };
+		B469C9471C41F7E400C56D11 /* DESViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESViewController.m; sourceTree = "<group>"; };
+		B469C9491C41F7EE00C56D11 /* RSAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAViewController.h; sourceTree = "<group>"; };
+		B469C94A1C41F7EE00C56D11 /* RSAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAViewController.m; sourceTree = "<group>"; };
+		B469C94C1C41F80F00C56D11 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B469C94D1C41F80F00C56D11 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B469C94F1C41F90800C56D11 /* JavaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaViewController.h; sourceTree = "<group>"; };
+		B469C9501C41F90800C56D11 /* JavaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaViewController.m; sourceTree = "<group>"; };
+		B469C9521C41FA7400C56D11 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B469C9551C41FE8200C56D11 /* libcommonCrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcommonCrypto.tbd; path = usr/lib/system/libcommonCrypto.tbd; sourceTree = SDKROOT; };
+		B469C9571C41FE9700C56D11 /* libMBProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMBProgressHUD.a; path = "Pods/../build/Debug-iphoneos/libMBProgressHUD.a"; sourceTree = "<group>"; };
+		B469C9581C41FE9700C56D11 /* libReachability.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReachability.a; path = "Pods/../build/Debug-iphoneos/libReachability.a"; sourceTree = "<group>"; };
+		B469C9591C41FE9700C56D11 /* libRegexKitLite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRegexKitLite.a; path = "Pods/../build/Debug-iphoneos/libRegexKitLite.a"; sourceTree = "<group>"; };
+		B469C95D1C41FE9E00C56D11 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/libAFNetworking.a"; sourceTree = "<group>"; };
+		B469C95E1C41FE9E00C56D11 /* libASIHTTPRequest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libASIHTTPRequest.a; path = "Pods/../build/Debug-iphoneos/libASIHTTPRequest.a"; sourceTree = "<group>"; };
+		B469C9611C41FEEF00C56D11 /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
+		B469C9631C42002D00C56D11 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B469C9651C42003B00C56D11 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D95178D8A031D12A992FD017 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F5D9FB3A743858896C84B8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +171,8 @@
 				B469C8DE1C41EFA000C56D11 /* EncryptionTests */,
 				B469C8E91C41EFA000C56D11 /* EncryptionUITests */,
 				B469C8C31C41EFA000C56D11 /* Products */,
+				E23B533255950E057BDCA6FC /* Pods */,
+				C5A60EF837E6D3E1A6337820 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,8 +193,13 @@
 				B469C8C91C41EFA000C56D11 /* AppDelegate.m */,
 				B469C8CB1C41EFA000C56D11 /* ViewController.h */,
 				B469C8CC1C41EFA000C56D11 /* ViewController.m */,
-				B469C8CE1C41EFA000C56D11 /* Main.storyboard */,
+				B469C93F1C41F63800C56D11 /* Encryption */,
+				B469C92A1C41F50F00C56D11 /* BaseClass */,
+				B469C92B1C41F52F00C56D11 /* Core */,
+				B469C92C1C41F54F00C56D11 /* Images */,
+				B469C8FD1C41F26400C56D11 /* ThirdParty */,
 				B469C8D11C41EFA000C56D11 /* Assets.xcassets */,
+				B469C8CE1C41EFA000C56D11 /* Main.storyboard */,
 				B469C8D31C41EFA000C56D11 /* LaunchScreen.storyboard */,
 				B469C8D61C41EFA000C56D11 /* Info.plist */,
 				B469C8C51C41EFA000C56D11 /* Supporting Files */,
@@ -140,6 +233,166 @@
 			path = EncryptionUITests;
 			sourceTree = "<group>";
 		};
+		B469C8FD1C41F26400C56D11 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				B469C9081C41F32800C56D11 /* UIcolor */,
+				B469C90D1C41F32800C56D11 /* Utils */,
+				B469C9041C41F2FE00C56D11 /* MBProgressHUD+Add */,
+				B469C8FE1C41F26400C56D11 /* Additions */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		B469C8FE1C41F26400C56D11 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				B469C8FF1C41F26400C56D11 /* UIView+LSAdditions.h */,
+				B469C9001C41F26400C56D11 /* UIView+LSAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		B469C9041C41F2FE00C56D11 /* MBProgressHUD+Add */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MBProgressHUD+Add";
+			sourceTree = "<group>";
+		};
+		B469C9081C41F32800C56D11 /* UIcolor */ = {
+			isa = PBXGroup;
+			children = (
+				B469C9091C41F32800C56D11 /* ColorUtils.h */,
+				B469C90A1C41F32800C56D11 /* ColorUtils.m */,
+				B469C90B1C41F32800C56D11 /* UIColor+AkColor.h */,
+				B469C90C1C41F32800C56D11 /* UIColor+AkColor.m */,
+			);
+			path = UIcolor;
+			sourceTree = "<group>";
+		};
+		B469C90D1C41F32800C56D11 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B469C90E1C41F32800C56D11 /* EncryptUtils.h */,
+				B469C90F1C41F32800C56D11 /* EncryptUtils.m */,
+				B469C9101C41F32800C56D11 /* ImageUtil.h */,
+				B469C9111C41F32800C56D11 /* ImageUtil.m */,
+				B469C9121C41F32800C56D11 /* LSHelper.h */,
+				B469C9131C41F32800C56D11 /* LSHelper.m */,
+				B469C9141C41F32800C56D11 /* UIImage+fixOrientation.h */,
+				B469C9151C41F32800C56D11 /* UIImage+fixOrientation.m */,
+				B469C9161C41F32800C56D11 /* UIImage+Resize.h */,
+				B469C9171C41F32800C56D11 /* UIImage+Resize.m */,
+				B469C9181C41F32800C56D11 /* UIImage+Size.h */,
+				B469C9191C41F32800C56D11 /* UIImage+Size.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B469C92A1C41F50F00C56D11 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				B469C8F91C41F18700C56D11 /* BaseViewController.h */,
+				B469C8FA1C41F18700C56D11 /* BaseViewController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		B469C92B1C41F52F00C56D11 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B469C9021C41F28A00C56D11 /* Encryption.pch */,
+				B469C9031C41F2B200C56D11 /* Define.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B469C92C1C41F54F00C56D11 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B469C9221C41F33A00C56D11 /* nav_back@2x.png */,
+				B469C9231C41F33A00C56D11 /* nav_back@3x.png */,
+				B469C9241C41F33A00C56D11 /* tab1@2x.png */,
+				B469C9251C41F33A00C56D11 /* tab2@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B469C9301C41F60000C56D11 /* DESiOS */ = {
+			isa = PBXGroup;
+			children = (
+				B469C9381C41F60000C56D11 /* regular */,
+				B469C9311C41F60000C56D11 /* DES3Util.h */,
+				B469C9321C41F60000C56D11 /* DES3Util.m */,
+				B469C9331C41F60000C56D11 /* GTMBase64.h */,
+				B469C9341C41F60000C56D11 /* GTMBase64.m */,
+				B469C9351C41F60000C56D11 /* GTMDefines.h */,
+				B469C9361C41F60000C56D11 /* NSString+NSReplace.h */,
+				B469C9371C41F60000C56D11 /* NSString+NSReplace.m */,
+			);
+			name = DESiOS;
+			path = ../3DESiOS;
+			sourceTree = "<group>";
+		};
+		B469C9381C41F60000C56D11 /* regular */ = {
+			isa = PBXGroup;
+			children = (
+				B469C9391C41F60000C56D11 /* RegularHelp.h */,
+				B469C93A1C41F60000C56D11 /* RegularHelp.m */,
+			);
+			name = regular;
+			path = ../regular;
+			sourceTree = "<group>";
+		};
+		B469C93F1C41F63800C56D11 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				B469C9301C41F60000C56D11 /* DESiOS */,
+				B469C9401C41F70800C56D11 /* RSAUtil.h */,
+				B469C9411C41F70800C56D11 /* RSAUtil.m */,
+				B469C94F1C41F90800C56D11 /* JavaViewController.h */,
+				B469C9501C41F90800C56D11 /* JavaViewController.m */,
+				B469C9431C41F7D800C56D11 /* MD5ViewController.h */,
+				B469C9441C41F7D800C56D11 /* MD5ViewController.m */,
+				B469C9461C41F7E400C56D11 /* DESViewController.h */,
+				B469C9471C41F7E400C56D11 /* DESViewController.m */,
+				B469C9491C41F7EE00C56D11 /* RSAViewController.h */,
+				B469C94A1C41F7EE00C56D11 /* RSAViewController.m */,
+				B469C94C1C41F80F00C56D11 /* RootViewController.h */,
+				B469C94D1C41F80F00C56D11 /* RootViewController.m */,
+			);
+			name = Encryption;
+			path = Encryption1;
+			sourceTree = "<group>";
+		};
+		C5A60EF837E6D3E1A6337820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B469C9651C42003B00C56D11 /* SystemConfiguration.framework */,
+				B469C9631C42002D00C56D11 /* libz.tbd */,
+				B469C9611C41FEEF00C56D11 /* libSystem.tbd */,
+				B469C95D1C41FE9E00C56D11 /* libAFNetworking.a */,
+				B469C95E1C41FE9E00C56D11 /* libASIHTTPRequest.a */,
+				B469C9571C41FE9700C56D11 /* libMBProgressHUD.a */,
+				B469C9581C41FE9700C56D11 /* libReachability.a */,
+				B469C9591C41FE9700C56D11 /* libRegexKitLite.a */,
+				B469C9551C41FE8200C56D11 /* libcommonCrypto.tbd */,
+				B469C9521C41FA7400C56D11 /* Security.framework */,
+				34A2009AF2A4CDAAC7AD40F8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E23B533255950E057BDCA6FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				791568259127868745DD3B5B /* Pods.debug.xcconfig */,
+				D95178D8A031D12A992FD017 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +400,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B469C8EF1C41EFA000C56D11 /* Build configuration list for PBXNativeTarget "Encryption" */;
 			buildPhases = (
+				BCF52B7EC642FC159771300F /* Check Pods Manifest.lock */,
 				B469C8BE1C41EFA000C56D11 /* Sources */,
 				B469C8BF1C41EFA000C56D11 /* Frameworks */,
 				B469C8C01C41EFA000C56D11 /* Resources */,
+				5296DDD1EB8633F71AA8DBEA /* Embed Pods Frameworks */,
+				2F55E132F6373F1A2034B290 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +502,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B469C9291C41F33A00C56D11 /* tab2@2x.png in Resources */,
+				B469C9281C41F33A00C56D11 /* tab1@2x.png in Resources */,
+				B469C9271C41F33A00C56D11 /* nav_back@3x.png in Resources */,
 				B469C8D51C41EFA000C56D11 /* LaunchScreen.storyboard in Resources */,
+				B469C9261C41F33A00C56D11 /* nav_back@2x.png in Resources */,
 				B469C8D21C41EFA000C56D11 /* Assets.xcassets in Resources */,
 				B469C8D01C41EFA000C56D11 /* Main.storyboard in Resources */,
 			);
@@ -268,14 +528,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F55E132F6373F1A2034B290 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5296DDD1EB8633F71AA8DBEA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCF52B7EC642FC159771300F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B469C8BE1C41EFA000C56D11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B469C9511C41F90800C56D11 /* JavaViewController.m in Sources */,
 				B469C8CD1C41EFA000C56D11 /* ViewController.m in Sources */,
+				B469C94E1C41F80F00C56D11 /* RootViewController.m in Sources */,
+				B469C93D1C41F60000C56D11 /* NSString+NSReplace.m in Sources */,
+				B469C94B1C41F7EE00C56D11 /* RSAViewController.m in Sources */,
+				B469C93E1C41F60000C56D11 /* RegularHelp.m in Sources */,
+				B469C93B1C41F60000C56D11 /* DES3Util.m in Sources */,
+				B469C93C1C41F60000C56D11 /* GTMBase64.m in Sources */,
+				B469C91A1C41F32800C56D11 /* ColorUtils.m in Sources */,
+				B469C9451C41F7D800C56D11 /* MD5ViewController.m in Sources */,
+				B469C8FB1C41F18700C56D11 /* BaseViewController.m in Sources */,
+				B469C9211C41F32800C56D11 /* UIImage+Size.m in Sources */,
+				B469C91C1C41F32800C56D11 /* EncryptUtils.m in Sources */,
+				B469C9481C41F7E400C56D11 /* DESViewController.m in Sources */,
 				B469C8CA1C41EFA000C56D11 /* AppDelegate.m in Sources */,
+				B469C91F1C41F32800C56D11 /* UIImage+fixOrientation.m in Sources */,
 				B469C8C71C41EFA000C56D11 /* main.m in Sources */,
+				B469C9011C41F26400C56D11 /* UIView+LSAdditions.m in Sources */,
+				B469C91B1C41F32800C56D11 /* UIColor+AkColor.m in Sources */,
+				B469C9421C41F70800C56D11 /* RSAUtil.m in Sources */,
+				B469C9201C41F32800C56D11 /* UIImage+Resize.m in Sources */,
+				B469C91D1C41F32800C56D11 /* ImageUtil.m in Sources */,
+				B469C91E1C41F32800C56D11 /* LSHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +740,19 @@
 		};
 		B469C8F01C41EFA000C56D11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791568259127868745DD3B5B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Encryption/Encryption.pch";
 				INFOPLIST_FILE = Encryption/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhongtou..Encryption;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -423,10 +760,19 @@
 		};
 		B469C8F11C41EFA000C56D11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D95178D8A031D12A992FD017 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Encryption/Encryption.pch";
 				INFOPLIST_FILE = Encryption/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhongtou..Encryption;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -499,6 +845,7 @@
 				B469C8F11C41EFA000C56D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B469C8F21C41EFA000C56D11 /* Build configuration list for PBXNativeTarget "EncryptionTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +854,7 @@
 				B469C8F41C41EFA000C56D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B469C8F51C41EFA000C56D11 /* Build configuration list for PBXNativeTarget "EncryptionUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +863,7 @@
 				B469C8F71C41EFA000C56D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RootViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // Override point for customization after application launch.
+    
+    
+    RootViewController *encryVC= [[RootViewController alloc]init];
+    UINavigationController *encryNC = [[UINavigationController alloc] initWithRootViewController:encryVC];
+    UITabBarController *tabVC= [[UITabBarController alloc]init];
+    tabVC.viewControllers= [NSArray arrayWithObjects:encryNC, nil];
+    self.window.rootViewController = tabVC;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
