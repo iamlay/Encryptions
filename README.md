@@ -39,6 +39,18 @@ MAC上生成公钥、私钥的方法，及使用<br>
 3、解密时调用类方法  +(NSString *)decryptUseDES:(NSString *)cipherText key:(NSString *)key;
 ```
 
+####ios端进行RSA加密、解密时非常方便
+```Objective-C
+1、引入头文件 #import "RSAUtil.h"
+2、公钥加密时调用类方法：
++ (NSString *)encryptString:(NSString *)str publicKey:(NSString *)pubKey;
++ (NSData *)encryptData:(NSData *)data publicKey:(NSString *)pubKey;
+3、私钥解密时调用类方法 
++ (NSString *)decryptString:(NSString *)str privateKey:(NSString *)privKey;
++ (NSData *)decryptData:(NSData *)data privateKey:(NSString *)privKey;
+```
+
+##效果图
  ![](http://s11.sinaimg.cn/large/005vePOggy6YsmPh0XU6a&690)  ![](http://s4.sinaimg.cn/large/005vePOggy6YsmPyg9Bf3&690) 
 
 ![](http://s5.sinaimg.cn/large/005vePOggy6YsmPBSQYf4&690)  ![](http://s13.sinaimg.cn/large/005vePOggy6YsmPFNYo8c&690) 
