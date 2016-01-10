@@ -1,15 +1,18 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8B723A3C1F20C6D95EFEFF8FB446F58E1FC30747",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "886f8186-a019-3a42-9a32-4364d30223f9++2315" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "886f8186-a019-3a42-9a32-4364d30223f9++2315" : 0
+    "886f8186-a019-3a42-9a32-4364d30223f9++2315" : 0,
+    "8B723A3C1F20C6D95EFEFF8FB446F58E1FC30747" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D187B987-2D6A-49F1-9C58-C9C71ABF563B",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "886f8186-a019-3a42-9a32-4364d30223f9++2315" : "Encryption\/Encryption\/3DESiOS\/"
+    "886f8186-a019-3a42-9a32-4364d30223f9++2315" : "Encryption\/Encryption\/3DESiOS\/",
+    "8B723A3C1F20C6D95EFEFF8FB446F58E1FC30747" : "Encryption\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Encryption",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/sinofreely.f3322.org\/dlcmios",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "886f8186-a019-3a42-9a32-4364d30223f9++2315"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Flying-Einstein\/Encryptions.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B723A3C1F20C6D95EFEFF8FB446F58E1FC30747"
     }
   ]
 }
