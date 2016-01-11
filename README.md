@@ -55,8 +55,8 @@ iOS无论使用系统自带的sdk函数，用mac产生的或者使用java的jdk�
 2、加密时调用方法：- (NSString *)md5:(NSString *)str;
 ```
 ##效果图
- ![](http://s11.sinaimg.cn/large/005vePOggy6YsmPh0XU6a&690) 
+ ![](https://github.com/Flying-Einstein/Encryptions/blob/master/Encryption/11.png)
  ![](http://s4.sinaimg.cn/large/005vePOggy6YsmPyg9Bf3&690) 
 ![](http://s5.sinaimg.cn/large/005vePOggy6YsmPBSQYf4&690)  
 ![](http://s13.sinaimg.cn/large/005vePOggy6YsmPFNYo8c&690) 
-![](https://github.com/Flying-Einstein/Encryptions/blob/master/Encryption/11.png)
+
