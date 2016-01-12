@@ -40,6 +40,7 @@
 		B469C94B1C41F7EE00C56D11 /* RSAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C94A1C41F7EE00C56D11 /* RSAViewController.m */; };
 		B469C94E1C41F80F00C56D11 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C94D1C41F80F00C56D11 /* RootViewController.m */; };
 		B469C9511C41F90800C56D11 /* JavaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9501C41F90800C56D11 /* JavaViewController.m */; };
+		B469C9691C424A3400C56D11 /* MD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9681C424A3400C56D11 /* MD5Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +136,8 @@
 		B469C9611C41FEEF00C56D11 /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
 		B469C9631C42002D00C56D11 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		B469C9651C42003B00C56D11 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B469C9671C424A3400C56D11 /* MD5Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Util.h; sourceTree = "<group>"; };
+		B469C9681C424A3400C56D11 /* MD5Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Util.m; sourceTree = "<group>"; };
 		D95178D8A031D12A992FD017 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -351,6 +354,8 @@
 				B469C9301C41F60000C56D11 /* DESiOS */,
 				B469C9401C41F70800C56D11 /* RSAUtil.h */,
 				B469C9411C41F70800C56D11 /* RSAUtil.m */,
+				B469C9671C424A3400C56D11 /* MD5Util.h */,
+				B469C9681C424A3400C56D11 /* MD5Util.m */,
 				B469C94F1C41F90800C56D11 /* JavaViewController.h */,
 				B469C9501C41F90800C56D11 /* JavaViewController.m */,
 				B469C9431C41F7D800C56D11 /* MD5ViewController.h */,
@@ -589,6 +594,7 @@
 				B469C93E1C41F60000C56D11 /* RegularHelp.m in Sources */,
 				B469C93B1C41F60000C56D11 /* DES3Util.m in Sources */,
 				B469C93C1C41F60000C56D11 /* GTMBase64.m in Sources */,
+				B469C9691C424A3400C56D11 /* MD5Util.m in Sources */,
 				B469C91A1C41F32800C56D11 /* ColorUtils.m in Sources */,
 				B469C9451C41F7D800C56D11 /* MD5ViewController.m in Sources */,
 				B469C8FB1C41F18700C56D11 /* BaseViewController.m in Sources */,
