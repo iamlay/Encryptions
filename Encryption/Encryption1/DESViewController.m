@@ -144,7 +144,7 @@
     if (!_encryWithPublicKeyBtn)
     {
         _encryWithPublicKeyBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _encryWithPublicKeyBtn .frame = CGRectMake((kMainScreenWidth-100)/2-150, kMainScreenHeight-100, 150, 30);
+        _encryWithPublicKeyBtn .frame = CGRectMake((kMainScreenWidth-100)/2-150, kMainScreenHeight-150, 150, 30);
         _encryWithPublicKeyBtn .backgroundColor = [UIColor redColor];
         [_encryWithPublicKeyBtn  addTarget:self action:@selector(encryWithPublicKey) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:_encryWithPublicKeyBtn];
@@ -161,7 +161,7 @@
     if (!_dencryWithPriviteKeyBtn)
     {
         _dencryWithPriviteKeyBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _dencryWithPriviteKeyBtn.frame = CGRectMake((kMainScreenWidth-100)/2+100, kMainScreenHeight-100, 150, 30);
+        _dencryWithPriviteKeyBtn.frame = CGRectMake((kMainScreenWidth-100)/2+100, kMainScreenHeight-150, 150, 30);
         _dencryWithPriviteKeyBtn.backgroundColor = [UIColor redColor];
         [_dencryWithPriviteKeyBtn addTarget:self action:@selector(decryWithPriviteKey) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:_dencryWithPriviteKeyBtn];
