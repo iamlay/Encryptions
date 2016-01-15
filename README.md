@@ -54,7 +54,16 @@ iOS无论使用系统自带的sdk函数，用mac产生的或者使用java的jdk�
 1、引入头文件 #import "MD5Util"
 2、加密时调用方法：- (NSString *)md5:(NSString *)str;
 ```
+
+####ios端进行AES加密、解密时非常方便
+```Objective-C
+1、引入头文件 #import "AES.h"
+2、加密时调用方法
++ (NSString *)encrypt:(NSString *)message password:(NSString *)password;
+2、解密时调用的方法
++ (NSString *)decrypt:(NSString *)base64EncodedString password:(NSString *)password;
+```
 ##效果图
 
-![](https://github.com/Flying-Einstein/Encryptions/blob/master/Encryption/Untitled.gif)
+![](https://github.com/Flying-Einstein/Encryptions/blob/master/Encryption/encryption.gif)
 
