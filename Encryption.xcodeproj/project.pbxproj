@@ -41,6 +41,11 @@
 		B469C94E1C41F80F00C56D11 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C94D1C41F80F00C56D11 /* RootViewController.m */; };
 		B469C9511C41F90800C56D11 /* JavaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9501C41F90800C56D11 /* JavaViewController.m */; };
 		B469C9691C424A3400C56D11 /* MD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = B469C9681C424A3400C56D11 /* MD5Util.m */; };
+		B4E0D1131C48F324000275A0 /* AES.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E0D10C1C48F324000275A0 /* AES.m */; };
+		B4E0D1141C48F324000275A0 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E0D10E1C48F324000275A0 /* NSData+Base64.m */; };
+		B4E0D1151C48F324000275A0 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E0D1101C48F324000275A0 /* NSData+CommonCrypto.m */; };
+		B4E0D1161C48F324000275A0 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E0D1121C48F324000275A0 /* NSString+Base64.m */; };
+		B4E0D1191C48F378000275A0 /* AESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E0D1181C48F378000275A0 /* AESViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +143,16 @@
 		B469C9651C42003B00C56D11 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B469C9671C424A3400C56D11 /* MD5Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Util.h; sourceTree = "<group>"; };
 		B469C9681C424A3400C56D11 /* MD5Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Util.m; sourceTree = "<group>"; };
+		B4E0D10B1C48F324000275A0 /* AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AES.h; sourceTree = "<group>"; };
+		B4E0D10C1C48F324000275A0 /* AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AES.m; sourceTree = "<group>"; };
+		B4E0D10D1C48F324000275A0 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		B4E0D10E1C48F324000275A0 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		B4E0D10F1C48F324000275A0 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		B4E0D1101C48F324000275A0 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		B4E0D1111C48F324000275A0 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		B4E0D1121C48F324000275A0 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		B4E0D1171C48F378000275A0 /* AESViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESViewController.h; sourceTree = "<group>"; };
+		B4E0D1181C48F378000275A0 /* AESViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESViewController.m; sourceTree = "<group>"; };
 		D95178D8A031D12A992FD017 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -351,6 +366,7 @@
 		B469C93F1C41F63800C56D11 /* Encryption */ = {
 			isa = PBXGroup;
 			children = (
+				B4E0D10A1C48F324000275A0 /* AES */,
 				B469C9301C41F60000C56D11 /* DESiOS */,
 				B469C9401C41F70800C56D11 /* RSAUtil.h */,
 				B469C9411C41F70800C56D11 /* RSAUtil.m */,
@@ -360,6 +376,8 @@
 				B469C9501C41F90800C56D11 /* JavaViewController.m */,
 				B469C9431C41F7D800C56D11 /* MD5ViewController.h */,
 				B469C9441C41F7D800C56D11 /* MD5ViewController.m */,
+				B4E0D1171C48F378000275A0 /* AESViewController.h */,
+				B4E0D1181C48F378000275A0 /* AESViewController.m */,
 				B469C9461C41F7E400C56D11 /* DESViewController.h */,
 				B469C9471C41F7E400C56D11 /* DESViewController.m */,
 				B469C9491C41F7EE00C56D11 /* RSAViewController.h */,
@@ -369,6 +387,21 @@
 			);
 			name = Encryption;
 			path = Encryption1;
+			sourceTree = "<group>";
+		};
+		B4E0D10A1C48F324000275A0 /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				B4E0D10B1C48F324000275A0 /* AES.h */,
+				B4E0D10C1C48F324000275A0 /* AES.m */,
+				B4E0D10D1C48F324000275A0 /* NSData+Base64.h */,
+				B4E0D10E1C48F324000275A0 /* NSData+Base64.m */,
+				B4E0D10F1C48F324000275A0 /* NSData+CommonCrypto.h */,
+				B4E0D1101C48F324000275A0 /* NSData+CommonCrypto.m */,
+				B4E0D1111C48F324000275A0 /* NSString+Base64.h */,
+				B4E0D1121C48F324000275A0 /* NSString+Base64.m */,
+			);
+			path = AES;
 			sourceTree = "<group>";
 		};
 		C5A60EF837E6D3E1A6337820 /* Frameworks */ = {
@@ -597,12 +630,17 @@
 				B469C9691C424A3400C56D11 /* MD5Util.m in Sources */,
 				B469C91A1C41F32800C56D11 /* ColorUtils.m in Sources */,
 				B469C9451C41F7D800C56D11 /* MD5ViewController.m in Sources */,
+				B4E0D1151C48F324000275A0 /* NSData+CommonCrypto.m in Sources */,
+				B4E0D1141C48F324000275A0 /* NSData+Base64.m in Sources */,
 				B469C8FB1C41F18700C56D11 /* BaseViewController.m in Sources */,
 				B469C9211C41F32800C56D11 /* UIImage+Size.m in Sources */,
 				B469C91C1C41F32800C56D11 /* EncryptUtils.m in Sources */,
 				B469C9481C41F7E400C56D11 /* DESViewController.m in Sources */,
+				B4E0D1191C48F378000275A0 /* AESViewController.m in Sources */,
+				B4E0D1131C48F324000275A0 /* AES.m in Sources */,
 				B469C8CA1C41EFA000C56D11 /* AppDelegate.m in Sources */,
 				B469C91F1C41F32800C56D11 /* UIImage+fixOrientation.m in Sources */,
+				B4E0D1161C48F324000275A0 /* NSString+Base64.m in Sources */,
 				B469C8C71C41EFA000C56D11 /* main.m in Sources */,
 				B469C9011C41F26400C56D11 /* UIView+LSAdditions.m in Sources */,
 				B469C91B1C41F32800C56D11 /* UIColor+AkColor.m in Sources */,

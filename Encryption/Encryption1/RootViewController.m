@@ -11,11 +11,13 @@
 #import "DESViewController.h"
 #import "JavaViewController.h"
 #import "MD5Viewcontroller.h"
+#import "AESViewController.h"
 @interface RootViewController ()
 @property(nonatomic, strong)UIButton    *DESButton;//加密按钮
 @property(nonatomic, strong)UIButton    *RSAButton;//解密按钮
 @property(nonatomic, strong)UIButton    *JavaButton;//解密按//
 @property(nonatomic, strong)UIButton    *MD5Button;
+@property(nonatomic, strong)UIButton    *AESButton;
 @end
 
 @implementation RootViewController
@@ -28,6 +30,7 @@
     [self.RSAButton  setTitle:@"RSA加密" forState:UIControlStateNormal];
     [self.JavaButton  setTitle:@"RSA &Java server" forState:UIControlStateNormal];
     [self.MD5Button setTitle:@"MD5加密" forState:UIControlStateNormal];
+    [self.AESButton setTitle:@"AES加密" forState:UIControlStateNormal];
     [self setNavBackArrow];
     
 }
@@ -104,7 +107,20 @@
     
 }
 
-
+-(UIButton *)AESButton
+{
+    if (!_AESButton)
+    {
+        _AESButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _AESButton.frame = CGRectMake((kMainScreenWidth-100)/2-150, 290, 150, 30);
+        _AESButton.backgroundColor = [UIColor blueColor];
+        [_AESButton addTarget:self action:@selector(AESdetailVC) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:_AESButton];;
+    }
+    return _AESButton;
+    
+    
+}
 
 
 //DES加密数据
@@ -139,6 +155,16 @@
 {
     MD5ViewController *md5VC= [[MD5ViewController alloc]init];
     [self.navigationController pushViewController:md5VC animated:YES];
+    
+    
+}
+
+
+//AES加密数据
+-(void)AESdetailVC
+{
+    AESViewController *AESVC= [[AESViewController alloc]init];
+    [self.navigationController pushViewController:AESVC animated:YES];
     
     
 }
