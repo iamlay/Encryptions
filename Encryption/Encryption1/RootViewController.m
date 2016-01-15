@@ -112,7 +112,7 @@
     if (!_AESButton)
     {
         _AESButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        _AESButton.frame = CGRectMake((kMainScreenWidth-100)/2-150, 290, 150, 30);
+        _AESButton.frame = CGRectMake((kMainScreenWidth-100)/2-150, 300, 150, 30);
         _AESButton.backgroundColor = [UIColor blueColor];
         [_AESButton addTarget:self action:@selector(AESdetailVC) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:_AESButton];;
