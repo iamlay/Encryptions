@@ -12,7 +12,7 @@
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D187B987-2D6A-49F1-9C58-C9C71ABF563B",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "886f8186-a019-3a42-9a32-4364d30223f9++2315" : "Encryption\/Encryption\/3DESiOS\/",
-    "8B723A3C1F20C6D95EFEFF8FB446F58E1FC30747" : "Encryption\/"
+    "8B723A3C1F20C6D95EFEFF8FB446F58E1FC30747" : "Encryptions\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Encryption",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
