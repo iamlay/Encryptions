@@ -501,7 +501,7 @@
 				TargetAttributes = {
 					B469C8C11C41EFA000C56D11 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = A6WFT62WK8;
+						DevelopmentTeam = 356DMCBGE9;
 					};
 					B469C8DA1C41EFA000C56D11 = {
 						CreatedOnToolsVersion = 7.2;
@@ -788,6 +788,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 356DMCBGE9;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Encryption/Encryption.pch";
 				INFOPLIST_FILE = Encryption/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
@@ -797,7 +798,7 @@
 					"$(SDKROOT)/usr/lib/system",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhongtou..Encryption;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lcy.yoyo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -808,6 +809,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 356DMCBGE9;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Encryption/Encryption.pch";
 				INFOPLIST_FILE = Encryption/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
@@ -817,7 +819,7 @@
 					"$(SDKROOT)/usr/lib/system",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhongtou..Encryption;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lcy.yoyo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
