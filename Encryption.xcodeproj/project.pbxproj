@@ -502,7 +502,7 @@
 					B469C8C11C41EFA000C56D11 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 356DMCBGE9;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					B469C8DA1C41EFA000C56D11 = {
 						CreatedOnToolsVersion = 7.2;
@@ -802,8 +802,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lcy.yoyo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "c60c4f48-1aa1-4c60-a9d2-ff993d1e0156";
+				PROVISIONING_PROFILE_SPECIFIER = JenkinsDeveloper;
 			};
 			name = Debug;
 		};
@@ -813,7 +813,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 356DMCBGE9;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Encryption/Encryption.pch";
 				INFOPLIST_FILE = Encryption/Info.plist;
@@ -826,8 +826,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lcy.yoyo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "dba35c4c-022d-446f-a64d-0a0f47031eca";
+				PROVISIONING_PROFILE_SPECIFIER = JenkinsDistribution;
 			};
 			name = Release;
 		};
