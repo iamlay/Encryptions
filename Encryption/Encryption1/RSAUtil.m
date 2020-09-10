@@ -290,6 +290,63 @@ static NSData *base64_decode(NSString *str){
     return [RSAUtil encryptData:data withKeyRef:keyRef];
 }
 
++ (NSString *)signString:(NSString *)str privateKey:(NSString *)privKey{
+    NSData *data = [RSAUtil signData:[str dataUsingEncoding:NSUTF8StringEncoding] privateKey:privKey];
+    NSString *ret = base64_encode_data(data);
+    return ret;
+}
+
++ (NSData *)signData:(NSData *)data privateKey:(NSString *)privKey{
+    if(!data || !privKey){
+        return nil;
+    }
+    SecKeyRef keyRef = [RSAUtil addPrivateKey:privKey];
+    if(!keyRef){
+        return nil;
+    }
+    return [RSAUtil signData:data withKeyRef:keyRef];
+}
+
++ (NSData *)signData:(NSData *)data withKeyRef:(SecKeyRef) keyRef{
+    const uint8_t *srcbuf = (const uint8_t *)[data bytes];
+    size_t srclen = (size_t)data.length;
+    
+    size_t block_size = SecKeyGetBlockSize(keyRef) * sizeof(uint8_t);
+    void *outbuf = malloc(block_size);
+    size_t src_block_size = block_size - 11;
+    
+    NSMutableData *ret = [[NSMutableData alloc] init];
+    for(int idx=0; idx<srclen; idx+=src_block_size){
+        //NSLog(@"%d/%d block_size: %d", idx, (int)srclen, (int)block_size);
+        size_t data_len = srclen - idx;
+        if(data_len > src_block_size){
+            data_len = src_block_size;
+        }
+        
+        size_t outlen = block_size;
+        OSStatus status = noErr;
+        status = SecKeyRawSign(keyRef,
+                               kSecPaddingPKCS1,
+                               srcbuf + idx,
+                               data_len,
+                               outbuf,
+                               &outlen
+                               );
+        if (status != 0) {
+            NSLog(@"SecKeyEncrypt fail. Error Code: %d", (int)status);
+            ret = nil;
+            break;
+        }else{
+            [ret appendBytes:outbuf length:outlen];
+        }
+    }
+    
+    free(outbuf);
+    CFRelease(keyRef);
+    return ret;
+}
+
+
 + (NSData *)decryptData:(NSData *)data withKeyRef:(SecKeyRef) keyRef{
     const uint8_t *srcbuf = (const uint8_t *)[data bytes];
     size_t srclen = (size_t)data.length;
